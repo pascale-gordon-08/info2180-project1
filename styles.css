@@ -193,13 +193,21 @@ article{
 .newsletter {
     background-color: #48bb78;
     color: white;
-    
+}
 
+form{
+    display: flex;
+    justify-content: space-between;
+}
+input{
+    padding-right: 10px;
 }
 
 button{
     background-color: #5a67d8;
-    padding: 10px;
+    
+    margin-left: 10%;
+    margin-bottom: 10%;
 }
 
 footer {
