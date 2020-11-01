@@ -184,8 +184,8 @@ article{
 
 .newsletter .container{
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
+    /*flex-wrap: wrap; */
     justify-content: space-between;
     padding-left: 20%;
     
@@ -197,7 +197,7 @@ article{
 
 form{
     display: flex;
-    justify-content: space-between;
+    
 }
 input{
     padding-right: 10px;
@@ -205,7 +205,6 @@ input{
 
 button{
     background-color: #5a67d8;
-    
     margin-left: 10%;
     margin-bottom: 10%;
 }
